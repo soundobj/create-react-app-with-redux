@@ -1,8 +1,8 @@
-import people from './people-reducer.js';
+import chat from './chat-reducer.js';
 import {combineReducers} from 'redux';
 
 const rootReducer = combineReducers({
-  people
+  chat
 });
 
 export default rootReducer;
